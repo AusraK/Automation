@@ -28,6 +28,7 @@ namespace Automation.Test
         public static void TearDown()
         {
             Driver.Close();
+
         }
 
         public static void TestSeleniumEasy(string text, bool shouldbeuncheckall)

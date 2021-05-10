@@ -61,8 +61,12 @@
     <Compile Include="Nd1.cs" />
     <Compile Include="Nd2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleniumEasyPage.cs" />
+    <Compile Include="SeleniumEasyTest.cs" />
     <Compile Include="TestWebDriver.cs" />
     <Compile Include="VartuTechnika.cs" />
+    <Compile Include="VartuTechnikaPage.cs" />
+    <Compile Include="VartuTechnikaTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
