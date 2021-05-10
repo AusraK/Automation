@@ -60,17 +60,20 @@
     <Compile Include="FireFoxDriver.cs" />
     <Compile Include="Nd1.cs" />
     <Compile Include="Nd2.cs" />
+    <Compile Include="Page\SeleniumEasyPage.cs" />
+    <Compile Include="Page\SimpleFormDemoPage.cs" />
+    <Compile Include="Page\VartuTechnikaPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeleniumEasyPage.cs" />
-    <Compile Include="SeleniumEasyTest.cs" />
     <Compile Include="TestWebDriver.cs" />
+    <Compile Include="Test\SeleniumEasyTest.cs" />
+    <Compile Include="Test\SimpleFormDemoTest.cs" />
+    <Compile Include="Test\VartuTechnikaTest.cs" />
     <Compile Include="VartuTechnika.cs" />
-    <Compile Include="VartuTechnikaPage.cs" />
-    <Compile Include="VartuTechnikaTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
