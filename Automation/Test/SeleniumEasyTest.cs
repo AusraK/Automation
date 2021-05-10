@@ -30,6 +30,7 @@ namespace Automation.Test
             Driver.Close();
         }
 
+        [TestCase("Success-check box is checked", true, TestName = "Test name example")]
         public static void TestSeleniumEasy(string text, bool shouldbeuncheckall)
         {
             SeleniumEasyPage page = new SeleniumEasyPage(Driver);
